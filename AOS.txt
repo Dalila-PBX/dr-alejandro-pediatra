@@ -1,0 +1,8 @@
+<div data-aos="fade-up"></div>
+<div data-aos="fade-down"></div>
+<div data-aos="fade-right"></div>
+<div data-aos="fade-left"></div>
+
+<div data-aos="fade-up"
+     data-aos-duration="3000">
+</div>
