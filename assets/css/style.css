@@ -127,7 +127,7 @@ header{
 
 
 .inicio__title {
-  width: clamp(270px, 30vw, 900px);
+  width: clamp(270px, 50vw, 900px);
 }
 
 .inicio__title__2 {
@@ -409,7 +409,7 @@ header{
 @media (max-width: 768px) {
   .inicio__title__2 {
     transform: translateY(2.3em);
-    margin-bottom: 2.3em;
+    margin-bottom: -.4em;
   }
 }
 
@@ -425,14 +425,19 @@ header{
     width: 120px;
   }
   .inicio__title__2 {
-    width: 100%;
+    width: 95%;
     transform: translateY(3em);
-    margin-bottom: 3em;
+    margin-bottom: 0em;
   }
 }
 
 /* Laptops y Escritorio (>= 992px) */
 @media (min-width: 992px) {
+  
+  .inicio__title__2{
+    width: 90%;
+    margin-bottom: 0;
+  }
   .footer__text {
     font-size: 1rem;
     letter-spacing: 4px;
@@ -456,13 +461,11 @@ header{
 
 /* Pantallas Grandes (>= 1200px) */
 @media (min-width: 1200px) {
-  header {
-    height: 90vh;
-  }
+ 
   .inicio__title__2 {
     width: 100%;
     transform: translateY(1em);
-    margin-bottom: -1em;
+    margin-bottom: -5em;
   }
   #contacto{
     margin-top: -130px; 
