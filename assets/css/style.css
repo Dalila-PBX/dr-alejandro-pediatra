@@ -5,11 +5,7 @@ html, body{
   width: 100%;
 }
 
-/* Evita que las animaciones de AOS generen scroll horizontal o rompan el layout */
-section, header, footer, main {
-  overflow-x: hidden;
-  
-}
+
 
 
 /*=============== HEADER  ===============*/
