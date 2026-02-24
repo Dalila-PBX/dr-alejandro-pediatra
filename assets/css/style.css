@@ -314,6 +314,15 @@ header{
   
 }
 
+.nav-link-f-aviso {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  
+}
+
+
 .footer__section{
   background-color:#82addb ;
   
