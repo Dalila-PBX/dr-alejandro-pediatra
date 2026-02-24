@@ -38,7 +38,7 @@ if($_POST['g-recaptcha-response'] == null || !isset($_POST['g-recaptcha-response
     $result = json_decode($result);
 
     if($result->success){
-        $to = 'csantiago.pbxhosting@gmail.com';
+        $to = 'kryzanthas@gmail.com';
         // $to = 'alejandropalomares.pediatra@gmail.com';
         $subject = 'Formulario de contacto';
 
