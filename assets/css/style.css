@@ -199,6 +199,16 @@ header{
   box-shadow: none !important;
 }
 
+.nosotros_img_diploma {
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.nosotros_diploma {
+  width: 100%;
+  max-width: 330px;
+  height: auto;
+}
+
 
 
 /*=============== SERVICIOS ===============*/
@@ -433,6 +443,9 @@ header{
 
 /* Tablets y Laptops pequeñas (>= 768px) */
 @media (min-width: 768px) {
+  .nosotros_img_diploma {
+    flex-direction: row;
+  }
   .footer__text {
     font-size: 1rem;
     letter-spacing: 2px;
